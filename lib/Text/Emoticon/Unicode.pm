@@ -4,8 +4,27 @@ use 5.006;
 use strict;
 use warnings;
 use utf8;
+use parent 'Text::Emoticon';
 
 our $VERSION = '0.01';
+
+sub default_config {
+    return {
+        strict => 0,
+    };
+}
+
+sub do_filter {
+    my ($self, $char) = @_;
+    return $char;
+}
+
+__PACKAGE__->register_subclass({
+    ':-)' => '☺',
+    ':)'  => '☺',
+    ':-(' => '☹',
+    ':('  => '☹',
+});
 
 1;
 
