@@ -14,8 +14,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0.41,  # diag()
     },
     requires => {
-        'perl'   => '5.6.0',  # our()
-        'parent' => 0,
+        'perl'           => '5.6.0',  # our()
+        'Text::Emoticon' => 0,
     },
     meta_merge => {
         resources => {
