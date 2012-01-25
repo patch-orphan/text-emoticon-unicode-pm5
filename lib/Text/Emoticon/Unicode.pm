@@ -6,7 +6,7 @@ use warnings;
 use utf8;
 use parent 'Text::Emoticon';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub default_config {
     return {
@@ -38,7 +38,7 @@ Text::Emoticon::Unicode - Text::Emoticon filter for Unicode emoticons
 
 =head1 VERSION
 
-This document describes Text::Emoticon::Unicode version 0.01.
+This document describes Text::Emoticon::Unicode version 0.02.
 
 =head1 SYNOPSIS
 

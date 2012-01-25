@@ -2,7 +2,7 @@ NAME
     Text::Emoticon::Unicode - Text::Emoticon filter for Unicode emoticons
 
 VERSION
-    This document describes Text::Emoticon::Unicode version 0.01.
+    This document describes Text::Emoticon::Unicode version 0.02.
 
 SYNOPSIS
         use Text::Emoticon;
