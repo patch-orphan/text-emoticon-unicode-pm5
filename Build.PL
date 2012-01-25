@@ -15,6 +15,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl'           => '5.6.0',  # our()
+        'parent'         => 0,
         'Text::Emoticon' => 0,
     },
     meta_merge => {
